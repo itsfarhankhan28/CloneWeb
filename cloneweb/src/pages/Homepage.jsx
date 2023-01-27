@@ -14,8 +14,8 @@ const Homepage = () => {
                 Book unique homes and experience a city like a local.
             </div> */}
             <div className='md:text-center lg:text-left sm:text-center'>
-              <h1 className='text-red-500 lg:text-10xl sm:text-6xl font-semibold pt-[178px]'>Airbnb</h1>
-              <h2 className='lg:text-6xl sm:text-5xl font-semibold leading-[65px]'>Book unique homes and <br />  experience a city like a local.</h2>
+              <h1 className='text-red-500 lg:text-10xl sm:text-7xl font-semibold pt-[178px]'>Airbnb</h1>
+              <h2 className='lg:text-6xl sm:text-5xl lg:leading-[65px] sm:leading-[45px] font-semibold leading-[65px]'>Book unique homes and <br />  experience a city like a local.</h2>
             </div>
         </div>
         <div className='max-w-[1500px] mx-auto h-[70px] relative top-[53px] shadow-xl'>
