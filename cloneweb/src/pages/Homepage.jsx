@@ -1,4 +1,7 @@
 import React from 'react'
+import hotels from '../assets/hotels.png'
+import experience from '../assets/experience.png'
+import restaurants from '../assets/restaurants.png'
 
 const Homepage = () => {
   return (
@@ -17,6 +20,23 @@ const Homepage = () => {
             <div className='w-[110px] h-[48px] relative left-[1370px] bottom-[21px] rounded-[10px] bg-red-500'>
                 <h1 className='text-white relative left-[24px] top-[8px] text-lg'>Search</h1>
             </div>
+        </div>
+        <div className='max-w-[1500px] mx-auto pt-[150px] font-semibold text-5xl'>
+          <h1>Explore Airbnb</h1>
+          <div className='max-w-[1000px] text-xl grid grid-cols-3 gap-5 pt-3'>
+            <div className='flex border-solid border-2 shadow-2xl'>
+              <img src={hotels} alt="" />
+              <h1>Hotels</h1>
+            </div>
+            <div className='flex border-solid border-2 shadow-2xl'>
+              <img src={experience} alt="" />
+              <h1>Experience</h1>
+            </div>
+            <div className='flex border-solid border-2 shadow-2xl'>
+              <img src={restaurants} alt="" />
+              <h1>Restaurants</h1>
+            </div>
+          </div>
         </div>
     </div>
   )
