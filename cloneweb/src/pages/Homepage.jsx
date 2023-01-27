@@ -6,11 +6,11 @@ import restaurants from '../assets/restaurants.png'
 const Homepage = () => {
   return (
     <div>
-      <div className='leading-[145px] max-w-[1500px] mx-auto'>
-            <div className='text-red-500 text-10xl font-semibold pt-[178px]'>
+        <div className='leading-[145px] max-w-[1500px] mx-auto grid'>
+            <div className='text-red-500 lg:text-10xl md:text-6xl sm:text-xl font-semibold pt-[178px]'>
                 Airbnb
             </div>
-            <div className='text-6xl font-semibold w-[1000px] leading-[65px]'>
+            <div className='lg:text-6xl md:text-5xl sm:text-xl font-semibold w-[1000px] leading-[65px]'>
                 Book unique homes and experience a city like a local.
             </div>
         </div>
