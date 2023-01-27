@@ -23,7 +23,7 @@ const Homepage = () => {
         </div>
         <div className='max-w-[1500px] mx-auto pt-[150px] font-semibold text-5xl'>
           <h1>Explore Airbnb</h1>
-          <div className='max-w-[1000px] text-xl grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 pt-3'>
+          <div className='max-w-[1000px] text-xl grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-3'>
             <div className='flex border-solid border-2 shadow-2xl'>
               <img src={hotels} alt="" />
               <h1>Hotels</h1>
