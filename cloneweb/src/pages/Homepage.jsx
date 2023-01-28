@@ -45,7 +45,12 @@ const Homepage = () => {
           </div>
         </div>
         <div className='max-w-[1500px] mx-auto pt-[100px]'>
-          <h1>Homes</h1>
+          <h1 className='font-semibold text-5xl'>Homes</h1>
+          <div className='max-w-[1500px] grid grid-cols-3 gap-10'>
+            <div className='border-solid border-2 border-black'>Hotel 1</div>
+            <div className='border-solid border-2 border-black'>Hotel 2</div>
+            <div className='border-solid border-2 border-black'>Hotel 3</div>
+          </div>
         </div>
     </div>
   )
