@@ -23,9 +23,9 @@ const Homepage = () => {
         <div className='max-w-[1500px] mx-auto h-[70px] relative top-[53px] shadow-xl'>
             {/* <img src={searchicon2} alt="" /> */}
             <h1 className='text-xl font-semibold text-gray-400 relative top-[22px] left-[70px]'>Try "Osaka"</h1>
-            <div className='w-[110px] h-[48px] relative left-[1370px] bottom-[21px] rounded-[10px] bg-red-500'>
+            {/* <div className='w-[110px] h-[48px] relative left-[1370px] bottom-[21px] rounded-[10px] bg-red-500'>
                 <h1 className='text-white relative left-[24px] top-[8px] text-lg'>Search</h1>
-            </div>
+            </div> */}
         </div>
         <div className='max-w-[1500px] mx-auto pt-[150px] font-semibold text-5xl'>
           <h1>Explore Airbnb</h1>
@@ -43,6 +43,9 @@ const Homepage = () => {
               <h1 className='relative top-[30px] left-[15px]'>Restaurants</h1>
             </div>
           </div>
+        </div>
+        <div className='max-w-[1500px] mx-auto pt-[100px]'>
+          <h1>Homes</h1>
         </div>
     </div>
   )
