@@ -3,6 +3,9 @@ import hotels from '../assets/hotels.png'
 import experience from '../assets/experience.png'
 import restaurants from '../assets/restaurants.png'
 import Nav from '../components/Nav'
+import hotel1 from '../assets/hotel1img.png'
+import hotel2 from '../assets/hotel2img.png'
+import hotel3 from '../assets/hotel3img.png'
 
 const Homepage = () => {
   return (
@@ -46,10 +49,22 @@ const Homepage = () => {
         </div>
         <div className='max-w-[1500px] mx-auto pt-[100px]'>
           <h1 className='font-semibold text-5xl'>Homes</h1>
-          <div className='max-w-[1500px] grid grid-cols-3 gap-10'>
-            <div className='border-solid border-2 border-black'>Hotel 1</div>
-            <div className='border-solid border-2 border-black'>Hotel 2</div>
-            <div className='border-solid border-2 border-black'>Hotel 3</div>
+          <div className='max-w-[1500px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-3'>
+            <div className='h-[400px] shadow-2xl'>
+              <img className='w-[470px]' src={hotel1} alt="" />
+              <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Hotel Taj Lands End</h1>
+              <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.5000 Per person</h1>
+            </div>
+            <div className='h-[400px] shadow-2xl'>
+              <img className='w-[470px]' src={hotel1} alt="" />
+              <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Burj Al Arab</h1>
+              <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.10,000 Per person</h1>
+            </div>
+            <div className='h-[400px] shadow-2xl'>
+              <img className='w-[470px]' src={hotel1} alt="" />
+              <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Oberoi Hotel</h1>
+              <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.7000 Per person</h1>
+            </div>
           </div>
         </div>
     </div>
