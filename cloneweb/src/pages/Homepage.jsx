@@ -53,17 +53,17 @@ const Homepage = () => {
         <div className='max-w-[1500px] mx-auto pt-[100px]'>
           <h1 className='font-semibold text-5xl'>Homes</h1>
           <div className='max-w-[1500px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-3'>
-            <div className='lg:h-[400px] sm:h-[350px] shadow-2xl'>
+            <div className='lg:h-[370px] sm:h-[350px] shadow-2xl'>
               <img className='w-[473px]' src={hotel1} alt="" />
               <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Hotel Taj Lands End</h1>
               <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.5000 Per person</h1>
             </div>
-            <div className='lg:h-[400px] sm:h-[350px] shadow-2xl'>
+            <div className='lg:h-[370px] sm:h-[350px] shadow-2xl'>
               <img className='w-[473px]' src={hotel2} alt="" />
               <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Burj Al Arab</h1>
               <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.10,000 Per person</h1>
             </div>
-            <div className='lg:h-[400px] sm:h-[350px] shadow-2xl'>
+            <div className='lg:h-[370px] sm:h-[350px] shadow-2xl'>
               <img className='w-[473px]' src={hotel3} alt="" />
               <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Oberoi Hotel</h1>
               <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.7000 Per person</h1>
