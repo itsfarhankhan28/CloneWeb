@@ -53,20 +53,38 @@ const Homepage = () => {
         <div className='max-w-[1500px] mx-auto pt-[100px]'>
           <h1 className='font-semibold text-5xl'>Homes</h1>
           <div className='max-w-[1500px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-3'>
-            <div className='lg:h-[370px] sm:h-[350px] shadow-2xl'>
+            <div className='lg:h-[370px] sm:h-[330px] shadow-2xl'>
               <img className='w-[473px]' src={hotel1} alt="" />
-              <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Hotel Taj Lands End</h1>
-              <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.5000 Per person</h1>
+              <div className='grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-2'>
+                <div>
+                  <h1 className='lg:text-xl sm:text-base font-semibold pt-[12px] pl-[6px]'>Hotel Taj Lands End</h1>
+                  <h1 className='lg:text-[20px] sm:text[15px] font-semibold pt-[5px] pl-[6px]'>Rs.5000 Per person</h1>
+                  <div className='w-[111px] h-[35px] bg-red-500 rounded-[10px] mt-[10px] ml-[6px]'>
+                    <h1 className='text-white font-semibold text-[18px] pl-[13px] pt-[4px]'>Check out</h1>
+                  </div>
+                  <div className='text-3xl relative bottom-[45px] left-[140px]'>
+                  <ion-icon name="heart-outline"></ion-icon>
+                  </div>
+                </div>
+                <div className='grid grid-cols-2'>
+                  <div>
+                    <h1 className='lg:text-xl relative lg:left-[180px] lg:top-[10px] font-bold sm:top-[10px] sm:left-[150px]'>4.7</h1>
+                  </div>
+                  <div className='lg:text-3xl sm:text-xl pt-[7px] pl-[15px]'>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className='lg:h-[370px] sm:h-[350px] shadow-2xl'>
+            <div className='lg:h-[370px] sm:h-[330px] shadow-2xl'>
               <img className='w-[473px]' src={hotel2} alt="" />
               <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Burj Al Arab</h1>
-              <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.10,000 Per person</h1>
+              <h1 className='text-[20px] font-semibold pt-[5px] pl-[6px]'>Rs.10,000 Per person</h1>
             </div>
-            <div className='lg:h-[370px] sm:h-[350px] shadow-2xl'>
+            <div className='lg:h-[370px] sm:h-[330px] shadow-2xl'>
               <img className='w-[473px]' src={hotel3} alt="" />
               <h1 className='text-xl font-semibold pt-[12px] pl-[6px]'>Oberoi Hotel</h1>
-              <h1 className='text-[18px] font-semibold pt-[12px] pl-[6px]'>Rs.7000 Per person</h1>
+              <h1 className='text-[20px] font-semibold pt-[5px] pl-[6px]'>Rs.7000 Per person</h1>
             </div>
           </div>
         </div>
