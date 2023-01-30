@@ -57,7 +57,7 @@ const Homepage = () => {
               <img className='w-[473px]' src={hotel1} alt="" />
               <div className='grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-2'>
                 <div>
-                  <h1 className='lg:text-xl sm:text-base font-semibold pt-[12px] pl-[6px]'>Hotel Taj Lands End</h1>
+                  <h1 className='lg:text-xl sm:text-base font-semibold pt-[12px] pl-[6px]'>Hotel Taj</h1>
                   <h1 className='lg:text-[20px] sm:text[15px] font-semibold pt-[5px] pl-[6px]'>Rs.5000 Per person</h1>
                   <div className='w-[111px] h-[35px] bg-red-500 rounded-[10px] mt-[10px] ml-[6px]'>
                     <h1 className='text-white font-semibold text-[18px] pl-[13px] pt-[4px]'>Check out</h1>
