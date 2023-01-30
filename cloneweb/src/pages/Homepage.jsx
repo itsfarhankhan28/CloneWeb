@@ -68,7 +68,7 @@ const Homepage = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl relative lg:left-[180px] lg:top-[10px] font-bold sm:top-[12px] sm:left-[145px]'>4.7</h1>
+                    <h1 className='lg:text-xl relative lg:left-[180px] lg:top-[10px] font-bold sm:top-[10px] sm:left-[135px]'>4.7</h1>
                   </div>
                   <div className='lg:text-3xl sm:text-xl lg:pt-[7px] lg:pl-[15px] sm:pt-[9px] sm:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
