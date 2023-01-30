@@ -62,15 +62,15 @@ const Homepage = () => {
                   <div className='w-[111px] h-[35px] bg-red-500 rounded-[10px] mt-[10px] ml-[6px]'>
                     <h1 className='text-white font-semibold text-[18px] pl-[13px] pt-[4px]'>Check out</h1>
                   </div>
-                  <div className='text-3xl relative lg:bottom-[43px] lg:left-[140px] sm:bottom-[43px] sm:left-[140px]'>
+                  <div className='text-3xl relative lg:bottom-[43px] lg:left-[140px] sm:bottom-[40px] sm:left-[135px]'>
                   <ion-icon name="heart-outline"></ion-icon>
                   </div>
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl relative lg:left-[180px] lg:top-[10px] font-bold sm:top-[10px] sm:left-[150px]'>4.7</h1>
+                    <h1 className='lg:text-xl relative lg:left-[180px] lg:top-[10px] font-bold sm:top-[12px] sm:left-[145px]'>4.7</h1>
                   </div>
-                  <div className='lg:text-3xl sm:text-xl lg:pt-[7px] lg:pl-[15px] sm:pt-[7px] sm:pl-[15px]'>
+                  <div className='lg:text-3xl sm:text-xl lg:pt-[7px] lg:pl-[15px] sm:pt-[9px] sm:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
