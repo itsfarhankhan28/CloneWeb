@@ -6,33 +6,32 @@ import Nav from '../components/Nav'
 import hotel1 from '../assets/hotel1img.png'
 import hotel2 from '../assets/hotel2img.png'
 import hotel3 from '../assets/hotel3img.png'
+import dest1 from '../assets/dest1img.png'
+import dest2 from '../assets/dest2img.png'
+import dest3 from '../assets/dest3img.png'
+import dest4 from '../assets/dest4img.png'
 
 const Homepage = () => {
   return (
     <div>
-      <Nav/> 
+      {/* NavBar */}
+      <Nav/>
+
+      {/* HeroSection */}
       <div className='max-w-[1500px] mx-auto '>
-            {/* <div className='text-red-500 text-10xl font-semibold pt-[178px]'>
-                Airbnb
-            </div>
-            <div className='text-6xl font-semibold w-[1000px] leading-[65px]'>
-                Book unique homes and experience a city like a local.
-            </div> */}
             <div className='md:text-center lg:text-left sm:text-center lg:leading-[150px]'>
               <h1 className='text-red-500 lg:text-10xl sm:text-7xl font-semibold pt-[150px]'>Airbnb</h1>
               <h2 className='lg:text-6xl sm:text-5xl lg:leading-[65px] sm:leading-[45px] font-semibold leading-[65px]'>Book unique homes and <br />  experience a city like a local.</h2>
             </div>
         </div>
         <div className='max-w-[1500px] mx-auto h-[70px] relative top-[53px] shadow-xl flex'>
-            {/* <img src={searchicon2} alt="" /> */}
             <div className='pt-[18px] pl-[15px] text-4xl'>
               <ion-icon name="search-outline"></ion-icon>
             </div>
             <h1 className='text-xl font-semibold text-gray-400 pt-[25px] pl-[20px]'>Try "Osaka"</h1>
-            {/* <div className='w-[110px] h-[48px] relative left-[1370px] bottom-[21px] rounded-[10px] bg-red-500'>
-                <h1 className='text-white relative left-[24px] top-[8px] text-lg'>Search</h1>
-            </div> */}
         </div>
+
+        {/* Explore Airbnb Section */}
         <div className='max-w-[1500px] mx-auto pt-[150px] font-semibold text-5xl'>
           <h1>Explore Airbnb</h1>
           <div className='max-w-[1000px] text-xl grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:gap-10 sm:gap-10 md:gap-10 pt-3'>
@@ -50,6 +49,8 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+
+        {/* Homes Section */}
         <div className='max-w-[1500px] mx-auto pt-[100px]'>
           <h1 className='font-semibold text-5xl'>Homes</h1>
           <div className='max-w-[1500px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-3'>
@@ -76,7 +77,6 @@ const Homepage = () => {
                 </div>
               </div>
             </div>
-
             <div className='lg:h-[370px] sm:h-[330px] shadow-2xl'>
               <img className='w-[473px]' src={hotel2} alt="" />
               <div className='grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-2'>
@@ -100,7 +100,6 @@ const Homepage = () => {
                 </div>
               </div>
             </div>
-
             <div className='lg:h-[370px] sm:h-[330px] shadow-2xl'>
               <img className='w-[473px]' src={hotel3} alt="" />
               <div className='grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-2'>
@@ -125,8 +124,29 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+        </div>
 
-
+        {/* Featured destination Section */}
+        <div className='max-w-[1500px] mx-auto pt-[100px]'>
+          <h1 className='font-semibold lg:text-5xl sm:text-3xl'>Featured Destinations</h1>
+          <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-10 pt-3'>
+            <div className='shadow-2xl'>
+              <img className='w-[400px]' src={dest1} alt="" />
+              <h1 className='text-3xl font-semibold pl-[15px]'>India</h1>
+            </div>
+            <div className='shadow-2xl'>
+              <img className='w-[400px]' src={dest2} alt="" />
+              <h1 className='text-3xl font-semibold pl-[15px]'>Dubai</h1>
+            </div>
+            <div className='shadow-2xl'>
+              <img className='w-[400px]' src={dest3} alt="" />
+              <h1 className='text-3xl font-semibold pl-[15px]'>Paris</h1>
+            </div>
+            <div className='shadow-2xl'>
+              <img className='w-[400px]' src={dest4} alt="" />
+              <h1 className='text-3xl font-semibold pl-[15px]'>Egypt</h1>
+            </div>
+          </div>
         </div>
     </div>
   )
