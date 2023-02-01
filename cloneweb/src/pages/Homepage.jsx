@@ -10,6 +10,7 @@ import dest1 from '../assets/dest1img.png'
 import dest2 from '../assets/dest2img.png'
 import dest3 from '../assets/dest3img.png'
 import dest4 from '../assets/dest4img.png'
+import Footer from '../components/Footer'
 
 const Homepage = () => {
   return (
@@ -148,6 +149,9 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+
+        {/* Footer */}
+        <Footer/>
     </div>
   )
 }
