@@ -9,7 +9,7 @@ const Homes = () => {
       <div className='max-w-[1500px] mx-auto pt-[100px]'>
           <h1 className='font-semibold lg:text-5xl sm:text-3xl lg:m-0 sm:ml-2'>Homes</h1>
           <div className='max-w-[1500px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-3'>
-            <div className='lg:h-[370px] sm:h-[300px] shadow-2xl lg:m-0 sm:mx-2'>
+            <div className='lg:h-[370px] sm:h-[320px] shadow-2xl lg:m-0 sm:mx-2'>
               <img className='w-[473px]' src={hotel1} alt="" />
               <div className='grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-2'>
                 <div>
@@ -24,7 +24,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl sm:text-lg lg:pl-[175px] font-bold  md:left-[145px] sm:pt-[8px] sm:pl-[115px]  '>4.7</h1>
+                    <h1 className='lg:text-xl sm:text-lg lg:pl-[175px] font-bold  md:left-[145px] sm:pt-[8px] sm:pl-[120px]  '>4.7</h1>
                   </div>
                   <div className='lg:text-3xl sm:text-xl lg:pt-[7px] lg:pl-[15px] sm:pt-[9px] sm:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
@@ -32,7 +32,7 @@ const Homes = () => {
                 </div>
               </div>
             </div>
-            <div className='lg:h-[370px] sm:h-[300px] shadow-2xl lg:m-0 sm:mx-2'>
+            <div className='lg:h-[370px] sm:h-[320px] shadow-2xl lg:m-0 sm:mx-2'>
               <img className='w-[473px]' src={hotel2} alt="" />
               <div className='grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-2'>
                 <div>
@@ -47,7 +47,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl sm:text-lg lg:pl-[175px] font-bold  md:left-[145px] sm:pt-[8px] sm:pl-[115px]  '>5.0</h1>
+                    <h1 className='lg:text-xl sm:text-lg lg:pl-[175px] font-bold  md:left-[145px] sm:pt-[8px] sm:pl-[120px]  '>5.0</h1>
                   </div>
                   <div className='lg:text-3xl sm:text-xl lg:pt-[7px] lg:pl-[15px] sm:pt-[9px] sm:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
@@ -55,7 +55,7 @@ const Homes = () => {
                 </div>
               </div>
             </div>
-            <div className='lg:h-[370px] sm:h-[300px] shadow-2xl lg:m-0 sm:mx-2'>
+            <div className='lg:h-[370px] sm:h-[320px] shadow-2xl lg:m-0 sm:mx-2'>
               <img className='w-[473px]' src={hotel3} alt="" />
               <div className='grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-2'>
                 <div>
@@ -70,7 +70,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl sm:text-lg lg:pl-[175px]  font-bold  md:left-[145px] sm:pt-[8px] sm:pl-[115px]  '>4.8</h1>
+                    <h1 className='lg:text-xl sm:text-lg lg:pl-[175px]  font-bold  md:left-[145px] sm:pt-[8px] sm:pl-[120px]  '>4.8</h1>
                   </div>
                   <div className='lg:text-3xl sm:text-xl lg:pt-[7px] lg:pl-[15px] sm:pt-[9px] sm:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
