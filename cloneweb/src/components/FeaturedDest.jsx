@@ -8,7 +8,7 @@ const FeaturedDest = () => {
   return (
     <>
       <div className='max-w-[1500px] mx-auto pt-[100px]'>
-          <h1 className='font-semibold lg:text-5xl sm:text-xl'>Featured Destinations</h1>
+          <h1 className='font-semibold lg:text-5xl sm:text-xl lg:m-0 sm:ml-2'>Featured Destinations</h1>
           <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-10 pt-3'>
             <div className='shadow-2xl lg:m-0 sm:mx-2'>
               <img className='w-[400px]' src={dest1} alt="" />
