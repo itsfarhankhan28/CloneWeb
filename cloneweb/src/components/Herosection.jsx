@@ -10,7 +10,7 @@ const Herosection = () => {
             </div>
         </div>
         <div className='lg:max-w-[1500px] lg:mx-auto sm:mx-2 lg:h-[70px] sm:h-[50px] relative top-[53px] shadow-xl flex'>
-            <div className='lg:pt-[18px] lg:pl-[15px] lg:text-4xl sm:text-xl sm:pt-[5px]'>
+            <div className='lg:pt-[18px] lg:pl-[15px] lg:text-4xl sm:text-xl sm:pt-[11px]'>
               <ion-icon name="search-outline"></ion-icon>
             </div>
             <h1 className='lg:text-xl sm:text-base font-semibold text-gray-400 lg:pt-[25px] lg:pl-[20px] sm:pt-[11px] sm:pl-[5px]'>Try "Osaka"</h1>
