@@ -17,9 +17,9 @@ const Footer = () => {
                 <div>Report a neighbourhood concern</div>
               </div>
             </div>
-            <div className=''>
+            <div className='lg:pt-0 sm:pt-10 lg:m-0 sm:ml-3'>
               <h1 className='font-semibold text-xl'>Community</h1>
-              <div className='text-sm pt-[20px] leading-[45px] grid lg:grid-cols-1 md:grid-cols-2'>
+              <div className='text-sm lg:pt-[20px] sm:pt-[10px] lg:leading-[45px] sm:leading-[35px] grid lg:grid-cols-1 md:grid-cols-2'>
                 <div>Airbnb.org: disaster relief housing</div>
                 <div>Combating discrimination</div>
               </div>
