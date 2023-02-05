@@ -7,8 +7,8 @@ const Footer = () => {
         <div className='max-w-[1500px] mx-auto h-[430px] relative top-[30px]'>
           <div className='grid lg:grid-cols-4 md:grid-cols-1'>
             <div className=''>
-              <h1 className='font-semibold text-xl'>Support</h1>
-              <div className='text-sm pt-[20px] leading-[45px] grid lg:grid-cols-1 md:grid-cols-3'>
+              <h1 className='font-semibold text-xl lg:m-0 sm:ml-3'>Support</h1>
+              <div className='text-sm lg:pt-[20px] sm:pt-[10px] lg:leading-[45px] sm:leading-[35px] grid lg:grid-cols-1 md:grid-cols-3 lg:m-0 sm:ml-3'>
                 <div>Help center</div>
                 <div>Air cover</div>
                 <div>Supporting people with disabilities</div>
