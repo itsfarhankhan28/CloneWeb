@@ -58,7 +58,7 @@ const Footer = () => {
                 <h1 className='text-lg pl-2 pt-[1px]'>English</h1>
               </div>
               <div className='text-lg pt-[1px] pl-[320px] relative lg:right-0 sm:right-[310px]'>INR</div>
-              <div className='flex pl-[160px] relative lg:right-0 sm:right-[130px] lg:pt-0 sm:pt-2'>
+              <div className='flex pl-[160px] relative lg:right-0 sm:right-[140px] lg:pt-0 sm:pt-2'>
                 <div className='text-xl'>
                   <ion-icon name="logo-twitter"></ion-icon>
                 </div>
