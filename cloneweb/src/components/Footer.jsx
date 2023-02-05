@@ -24,9 +24,9 @@ const Footer = () => {
                 <div>Combating discrimination</div>
               </div>
             </div>
-            <div className=''>
+            <div className='lg:pt-0 sm:pt-10 lg:m-0 sm:ml-3'>
               <h1 className='font-semibold text-xl'>Hosting</h1>
-              <div className='text-sm pt-[20px] leading-[45px] grid lg:grid-cols-1 md:grid-cols-3'>
+              <div className='text-sm lg:pt-[20px] sm:pt-[10px] lg:leading-[45px] sm:leading-[35px] grid lg:grid-cols-1 md:grid-cols-3'>
                 <div>Airbnb your home</div>
                 <div>AirCover for Hosts</div>
                 <div>Explore hosting resources</div>
