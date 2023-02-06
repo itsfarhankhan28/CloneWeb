@@ -15,29 +15,31 @@ module.exports = {
       '7xl': ['90px'],
       '10xl': ['128px']
     },
-    screens: {
-      'ps': '320px',
-      // => @media (min-width: 640px) { ... }
-
-      'pm':'375px',
-
-      'pl':'425px',
-
-      'md': '800px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-
-      //new screen
-      //'ps':'320px'
-      //'pl':'425px'
+    extend:{
+      screens: {
+        'ps': '320px',
+        // => @media (min-width: 640px) { ... }
+  
+        'pm':'375px',
+  
+        'pl':'425px',
+  
+        'md': '800px',
+        // => @media (min-width: 768px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+  
+        //new screen
+        //'ps':'320px'
+        //'pl':'425px'
+      }
     }
   },
   plugins: [],
