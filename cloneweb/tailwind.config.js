@@ -30,6 +30,11 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+
+      //new screen
+      //'ps':'320px'
+      'pm':'375px'
+      //'pl':'425px'
     }
   },
   plugins: [],
