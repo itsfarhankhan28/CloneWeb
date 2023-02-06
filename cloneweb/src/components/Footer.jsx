@@ -52,12 +52,12 @@ const Footer = () => {
             <div className='text-ps mt-3 lg:text-left md:text-center lg:m-0 ps:ml-3'>2023 Airbnb,Inc,   Privacy   Terms   Sitemap   Company details</div>
             <div className='grid grid-cols-3 mt-3'>
               <div className='flex pl-[420px] relative lg:right-0 ps:right-[410px]'>
-                <div className='text-[25px]'>
+                <div className='text-[25px] pt-[8px]'>
                   <ion-icon name="globe-outline"></ion-icon>
                 </div>
-                <h1 className='text-lg pl-2 pt-[1px]'>English</h1>
+                <h1 className='text-lg pl-2 pt-[8px]'>English</h1>
               </div>
-              <div className='text-lg pt-[1px] pl-[320px] relative lg:right-0 ps:right-[310px]'>INR</div>
+              <div className='text-lg pt-[8px] pl-[320px] relative lg:right-0 ps:right-[310px]'>INR</div>
               <div className='flex pl-[160px] relative lg:right-0 ps:right-[180px] lg:pt-0 ps:pt-2'>
                 <div className='text-xl'>
                   <ion-icon name="logo-twitter"></ion-icon>
