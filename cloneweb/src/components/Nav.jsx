@@ -17,7 +17,7 @@ const Nav = () => {
         <img className='h-[50px]' src={logo} alt="" />
       </div>
       
-      <div onClick={()=>setOpen(!open)} className='ps:text-2xl absolute ps:left-[300px] pm:left-[320px] top-5 cursor-pointer lg:hidden md:hidden'>
+      <div onClick={()=>setOpen(!open)} className='ps:text-2xl absolute ps:left-[320px] pm:left-[320px] top-5 cursor-pointer lg:hidden md:hidden'>
       {/* <ion-icon name={open ? 'close':'menu'}></ion-icon> */}
       <ion-icon name={open ? 'close' : 'menu-outline'}></ion-icon>
       </div>
