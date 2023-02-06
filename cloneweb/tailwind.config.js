@@ -16,8 +16,12 @@ module.exports = {
       '10xl': ['128px']
     },
     screens: {
-      'sm': '320px',
+      'ps': '320px',
       // => @media (min-width: 640px) { ... }
+
+      'pm':'375px',
+
+      'pl':'425px',
 
       'md': '800px',
       // => @media (min-width: 768px) { ... }
@@ -33,7 +37,6 @@ module.exports = {
 
       //new screen
       //'ps':'320px'
-      'pm':'375px'
       //'pl':'425px'
     }
   },
