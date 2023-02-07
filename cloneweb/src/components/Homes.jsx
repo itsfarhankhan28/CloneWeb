@@ -24,7 +24,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl ps:text-lg lg:pl-[175px] font-bold  md:left-[145px] ps:pt-[8px] ps:pl-[125px]  '>4.7</h1>
+                    <h1 className='lg:text-xl ps:text-lg lg:pl-[175px] font-bold  md:left-[145px] ps:pt-[8px] ps:pl-[125px]  pl:pl-[145px]'>4.7</h1>
                   </div>
                   <div className='lg:text-3xl ps:text-xl lg:pt-[7px] lg:pl-[15px] ps:pt-[9px] ps:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
@@ -47,7 +47,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl ps:text-lg lg:pl-[175px] font-bold  md:left-[145px] ps:pt-[8px] ps:pl-[125px]  '>5.0</h1>
+                    <h1 className='lg:text-xl ps:text-lg lg:pl-[175px] font-bold  md:left-[145px] ps:pt-[8px] ps:pl-[125px]  pl:pl-[145px]'>5.0</h1>
                   </div>
                   <div className='lg:text-3xl ps:text-xl lg:pt-[7px] lg:pl-[15px] ps:pt-[9px] ps:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
@@ -70,7 +70,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='lg:text-xl ps:text-lg lg:pl-[175px]  font-bold  md:left-[145px] ps:pt-[8px] ps:pl-[125px]  '>4.8</h1>
+                    <h1 className='lg:text-xl ps:text-lg lg:pl-[175px]  font-bold  md:left-[145px] ps:pt-[8px] ps:pl-[125px]  pl:pl-[145px]'>4.8</h1>
                   </div>
                   <div className='lg:text-3xl ps:text-xl lg:pt-[7px] lg:pl-[15px] ps:pt-[9px] ps:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
