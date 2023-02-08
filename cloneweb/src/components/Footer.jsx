@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='max-w-[100%] mt-[100px] lg:h-[460px] ps:h-[1124px] bg-gray-200'>
+      <div className='max-w-[100%] mt-[100px] lg:h-[460px] ps:h-[1124px] md:h-[730px] bg-gray-200'>
         <div className='max-w-[1500px] mx-auto h-[430px] relative top-[30px]'>
           <div className='grid lg:grid-cols-4 md:grid-cols-1'>
             <div className=''>
@@ -51,14 +51,14 @@ const Footer = () => {
           <div className='grid lg:grid-cols-2 md:grid-cols-1 ps:grid-cols-1'>
             <div className='text-lg mt-3 lg:text-left md:text-center lg:m-0 ps:ml-3'>2023 Airbnb,Inc,   Privacy   Terms   Sitemap   Company details</div>
             <div className='grid grid-cols-3 mt-3'>
-              <div className='flex pl-[420px] relative lg:right-0 ps:right-[410px]'>
+              <div className='flex pl-[420px] relative lg:right-0 ps:right-[410px] md:pl-[600px]'>
                 <div className='text-[25px] pt-[8px]'>
                   <ion-icon name="globe-outline"></ion-icon>
                 </div>
                 <h1 className='text-lg pl-2 pt-[8px]'>English</h1>
               </div>
-              <div className='text-lg pt-[8px] pl-[320px] relative lg:right-0 ps:right-[310px]'>INR</div>
-              <div className='flex pl-[160px] relative lg:right-0 ps:right-[180px] lg:pt-0 ps:pt-2'>
+              <div className='text-lg pt-[8px] pl-[320px] relative lg:right-0 ps:right-[310px] md:pl-[430px]'>INR</div>
+              <div className='flex pl-[160px] relative lg:right-0 ps:right-[180px] lg:pt-0 ps:pt-2 md:pl-[170px]'>
                 <div className='text-xl'>
                   <ion-icon name="logo-twitter"></ion-icon>
                 </div>
