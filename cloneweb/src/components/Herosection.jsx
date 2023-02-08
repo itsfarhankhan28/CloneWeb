@@ -4,8 +4,8 @@ const Herosection = () => {
   return (
     <>
         <div className='max-w-[1500px] mx-auto '>
-            <div className='md:text-center 2xl:text-left ps:text-center 2xl:leading-[150px]'>
-              <h1 className='text-red-500 2xl:text-10xl ps:text-7xl font-semibold pt-[150px]'>Airbnb</h1>
+            <div className='md:text-center 2xl:text-left ps:text-center 2xl:leading-[150px]  lg:text-left lg:ml-10'>
+              <h1 className='text-red-500 2xl:text-10xl ps:text-7xl lg:text-8xl font-semibold pt-[150px]'>Airbnb</h1>
               <h2 className='2xl:text-6xl 2xl:m-0 ps:text-4xl 2xl:leading-[65px] ps:leading-[43px] font-semibold leading-[65px]'>Book unique homes and <br />  experience a city like a local.</h2>
             </div>
         </div>

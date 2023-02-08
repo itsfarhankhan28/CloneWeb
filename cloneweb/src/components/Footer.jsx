@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='max-w-[100%] mt-[100px] 2xl:h-[460px] ps:h-[1124px] md:h-[730px] bg-gray-200'>
+      <div className='max-w-[100%] mt-[100px] 2xl:h-[460px] ps:h-[1137px] md:h-[730px] bg-gray-200'>
         <div className='max-w-[1500px] mx-auto h-[430px] relative top-[30px]'>
           <div className='grid 2xl:grid-cols-4 md:grid-cols-1'>
             <div className=''>
@@ -49,15 +49,15 @@ const Footer = () => {
           <div className='max-w-[1500px] border-solid border-2 border-gray-300 mt-[50px] '></div>
 
           <div className='grid 2xl:grid-cols-2 md:grid-cols-1 ps:grid-cols-1'>
-            <div className='text-2xl mt-3 2xl:text-left md:text-center 2xl:m-0 ps:ml-3'>2023 Airbnb,Inc,   Privacy   Terms   Sitemap   Company details</div>
+            <div className='text-2xl mt-3 2xl:text-left md:text-center 2xl:m-0 ps:ml-3 ps:text-xl'>2023 Airbnb,Inc,   Privacy   Terms   Sitemap   Company details</div>
             <div className='grid grid-cols-3 mt-3'>
               <div className='flex pl-[420px] relative 2xl:right-0 ps:right-[410px] md:pl-[600px]'>
                 <div className='text-[25px] pt-[8px]'>
                   <ion-icon name="globe-outline"></ion-icon>
                 </div>
-                <h1 className='text-2xl pl-2 pt-[8px]'>English</h1>
+                <h1 className='text-xl pl-2 pt-[8px]'>English</h1>
               </div>
-              <div className='text-2xl pt-[8px] pl-[320px] relative 2xl:right-0 ps:right-[310px] md:pl-[430px]'>INR</div>
+              <div className='text-xl pt-[8px] pl-[320px] relative 2xl:right-0 ps:right-[310px] md:pl-[430px]'>INR</div>
               <div className='flex pl-[160px] relative 2xl:right-0 ps:right-[180px] 2xl:pt-0 ps:pt-2 md:pl-[170px]'>
                 <div className='text-xl'>
                   <ion-icon name="logo-twitter"></ion-icon>

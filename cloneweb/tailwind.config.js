@@ -13,6 +13,7 @@ module.exports = {
       '5xl': ['45px'],
       '6xl': ['65px'],
       '7xl': ['90px'],
+      '8xl' : ['110px'],
       '10xl': ['128px']
     },
     extend:{
