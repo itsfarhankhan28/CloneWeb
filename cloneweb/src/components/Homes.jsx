@@ -24,7 +24,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='2xl:text-xl ps:text-xl 2xl:pl-[175px] font-bold  md:left-[145px] ps:pt-[6px] ps:pl-[130px]  pl:pl-[145px] md:pl-[130px]'>4.7</h1>
+                    <h1 className='2xl:text-2xl ps:text-xl 2xl:pl-[175px] font-bold  md:left-[145px] ps:pt-[6px] ps:pl-[130px]  pl:pl-[145px] md:pl-[130px]'>4.7</h1>
                   </div>
                   <div className='2xl:text-3xl ps:text-xl 2xl:pt-[7px] 2xl:pl-[15px] ps:pt-[9px] ps:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
@@ -47,7 +47,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='2xl:text-xl ps:text-xl 2xl:pl-[175px] font-bold  md:left-[145px] ps:pt-[6px] ps:pl-[130px]  pl:pl-[145px] md:pl-[130px]'>5.0</h1>
+                    <h1 className='2xl:text-2xl ps:text-xl 2xl:pl-[175px] font-bold  md:left-[145px] ps:pt-[6px] ps:pl-[130px]  pl:pl-[145px] md:pl-[130px]'>5.0</h1>
                   </div>
                   <div className='2xl:text-3xl ps:text-xl 2xl:pt-[7px] 2xl:pl-[15px] ps:pt-[9px] ps:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
@@ -70,7 +70,7 @@ const Homes = () => {
                 </div>
                 <div className='grid grid-cols-2'>
                   <div>
-                    <h1 className='2xl:text-xl ps:text-xl 2xl:pl-[175px]  font-bold  md:left-[145px] ps:pt-[6px] ps:pl-[130px] pl:pl-[145px] md:pl-[130px]'>4.8</h1>
+                    <h1 className='2xl:text-2xl ps:text-xl 2xl:pl-[175px]  font-bold  md:left-[145px] ps:pt-[6px] ps:pl-[130px] pl:pl-[145px] md:pl-[130px]'>4.8</h1>
                   </div>
                   <div className='2xl:text-3xl ps:text-xl 2xl:pt-[7px] 2xl:pl-[15px] ps:pt-[9px] ps:pl-[12px]'>
                     <ion-icon name="star"></ion-icon>
