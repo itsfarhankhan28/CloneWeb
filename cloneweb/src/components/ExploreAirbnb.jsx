@@ -6,7 +6,7 @@ import restaurants from '../assets/restaurants.png'
 const ExploreAirbnb = () => {
   return (
     <>
-      <div className='max-w-[1500px] mx-auto pt-[150px]'>
+      <div className='max-w-[1500px] mx-auto pt-[150px] lg:ml-10'>
           <h1 className='font-semibold 2xl:text-5xl ps:text-3xl 2xl:m-0 ps:ml-2'>Explore Airbnb</h1>
           <div className='max-w-[1000px] text-xl grid 2xl:grid-cols-3 md:grid-cols-2 ps:grid-cols-1 2xl:gap-10 ps:gap-9 md:gap-10 pt-3'>
             <div className='flex border-solid border-2 2xl:shadow-2xl ps:shadow-xl 2xl:m-0 ps:ml-2 ps:mr-[50px] pl:mr-[120px]'>
