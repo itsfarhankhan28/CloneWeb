@@ -6,9 +6,9 @@ import hotel3 from '../assets/hotel3img.png'
 const Homes = () => {
   return (
     <>
-      <div className='max-w-[1500px] mx-auto pt-[100px]'>
+      <div className='max-w-[1500px] mx-auto pt-[100px] lg:mx-10'>
           <h1 className='font-semibold 2xl:text-5xl ps:text-3xl 2xl:m-0 ps:ml-2'>Homes</h1>
-          <div className='max-w-[1500px] grid 2xl:grid-cols-3 md:grid-cols-2 ps:grid-cols-1 gap-10 pt-3'>
+          <div className='max-w-[1500px] grid 2xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 ps:grid-cols-1 2xl:gap-10 pt-3'>
             <div className='2xl:h-[370px] ps:h-[320px] shadow-2xl 2xl:m-0 ps:mx-2'>
               <img className='w-[473px]' src={hotel1} alt="" />
               <div className='grid 2xl:grid-cols-2 ps:grid-cols-2 md:grid-cols-2'>
